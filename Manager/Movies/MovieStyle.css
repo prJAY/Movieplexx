@@ -1,0 +1,30 @@
+
+.container{
+    background: transparent;
+}
+body{
+    background: url('/assets/images/bg_movie.jpg');
+    background-size: cover;
+}
+main {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+}
+.movie {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    margin: 1rem;
+    width: 250px;
+    height: 435px;
+}
+.movie img {
+    width: 100%;
+}
+.btnsub {
+    margin: 10px 5%;
+    width: 90%;
+}

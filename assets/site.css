@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
+*{
+    font-family:  'Poppins';
+}
+body{
+    background: #f2f2f2;
+}
+.container{
+    background: #fff;
+    padding: 30px;
+    min-height: 10vh;
+    border-radius: 10px;
+}
+.upshadow{
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+.upshadow:hover{
+    box-shadow: 5px 12px 20px rgba(36, 37, 38, 0.13);
+}
+.table{
+    min-width: max-content;
+}
+.seats{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
